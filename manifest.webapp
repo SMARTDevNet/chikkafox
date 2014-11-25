@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "name": "ChikkaFOX",
+  "description": "ChikkaFOX is an experimental web app that lets you send SMS on your Firefox OS.",
+  "launch_path": "/index.html",
+  "orientation": [
+    "portrait",
+    "portrait-primary"
+  ],
+  "icons": {
+    "60": "/images/60.png",
+    "128": "/images/128.png"
+  },
+  "developer": {
+    "name": "Aaron Cajes",
+    "url": "http://www.aaroncajes.com"
+  },
+ "type": "privileged",
+   "permissions": {
+     "systemXHR": {
+      "description": "Required to load remote content"
+      }
+    },
+  "default_locale": "en"
+}
